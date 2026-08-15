@@ -8,3 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+# Secrets — never commit these
+.env
+.env.*
+*.key
+
+# macOS
+.DS_Store
+
