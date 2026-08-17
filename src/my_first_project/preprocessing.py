@@ -5,7 +5,6 @@ def normalize_whitespace(text: str) -> str:
     """Collapse repeated whitespace into single spaces."""
     return " ".join(text.split())
 
-
 def truncate(text: str, max_length: int = 100) -> str:
     """Shorten text to max_length characters, adding an ellipsis."""
     if len(text) <= max_length:
