@@ -11,6 +11,14 @@ built with FastAPI and scikit-learn.
 - **`POST /clean-batch`** — cleans a batch of documents, dropping empty ones.
 - **`GET /health`** — reports service health and model status.
 
+![API documentation](docs-overview.png)
+
+*Interactive OpenAPI docs, generated automatically from Python type hints.*
+
+![Live prediction](docs-prediction.png)
+
+*A live request: four measurements in — species, confidence and model accuracy out.*
+
 ## Tech stack
 
 Python 3.12 · FastAPI · Pydantic · scikit-learn · pytest · ruff · uv
